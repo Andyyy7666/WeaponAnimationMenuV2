@@ -1,0 +1,32 @@
+#overlay {
+    margin: 8vh auto;
+    height: 65vh;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.616);
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#title {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#DefaultAim {
+    margin-left: 9%;
+}
+
+#DefaultHolster {
+    margin-left: 9%;
+}
+
+#FrontHolster {
+    margin-left: 9%;
+}
+
+.Images {
+    border-radius: 10px;
+    width: 23%;
+    margin: 2% 3%;
+}
