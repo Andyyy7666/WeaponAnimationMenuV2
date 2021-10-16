@@ -2,7 +2,8 @@
 You can set the command and weapons you want to use in the config. Once started players options will be saved client side.
 
 # Need Support?
-https://discord.gg/Z9Mxu72zZ6
+
+[![Need Support?](https://i.imgur.com/fqKYWeV.png)](https://discord.gg/Z9Mxu72zZ6)
 
 # How to install:
 Drag WeaponAnimationMenu to your resources folder and write start WeapnAnimationMenuV2 in your server cfg.
