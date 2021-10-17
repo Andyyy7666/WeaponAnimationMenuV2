@@ -8,9 +8,6 @@
 
 -- variables
 local display = false
-local Player = PlayerPedId(), DecorGetInt(PlayerPedId())
-local ped = PlayerPedId()
-
 local AimAnim = GetResourceKvpString("AimAnim")
 local HolsterAnim = GetResourceKvpString("HolsterAnim")
 
@@ -79,6 +76,9 @@ end)
 
 -- aim style
 CreateThread(function()
+    local Player = PlayerPedId(), DecorGetInt(PlayerPedId())
+    local ped = PlayerPedId()
+    
     while true do
         if AimAnim == "GangsterAS" then
             if CheckWeapon2(ped) then
