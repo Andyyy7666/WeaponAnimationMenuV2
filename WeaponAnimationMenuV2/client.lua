@@ -76,10 +76,10 @@ end)
 
 -- aim style
 CreateThread(function()
-    local Player = PlayerPedId(), DecorGetInt(PlayerPedId())
-    local ped = PlayerPedId()
-    
     while true do
+        local Player = PlayerPedId(), DecorGetInt(PlayerPedId())
+        local ped = PlayerPedId()
+        
         if AimAnim == "GangsterAS" then
             if CheckWeapon2(ped) then
                 inVeh = IsPedInVehicle(PlayerPedId(-1), GetVehiclePedIsIn(PlayerPedId(-1), false), false)
