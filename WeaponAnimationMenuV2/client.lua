@@ -77,8 +77,8 @@ end)
 -- aim style
 CreateThread(function()
     while true do
-        local Player = PlayerPedId(), DecorGetInt(PlayerPedId())
-        local ped = PlayerPedId()
+        Player = PlayerPedId(), DecorGetInt(PlayerPedId())
+        ped = PlayerPedId()
         
         if AimAnim == "GangsterAS" then
             if CheckWeapon2(ped) then
