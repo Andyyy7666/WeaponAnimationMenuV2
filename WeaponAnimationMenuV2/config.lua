@@ -7,7 +7,7 @@
 ------------------------------------------------------------------------
 
 config = {
-    openCommand = "wam", -- Command that will open the breathalyzer.
+    openCommand = "wam", -- Command that will open the weapon animation menu.
 
     -- Weapons for aim animations.
     AimWeapons = {
